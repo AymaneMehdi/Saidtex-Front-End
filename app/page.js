@@ -4,6 +4,7 @@ import About from "./components/about";
 import Partners from "./components/partenaires";
 import Whyus from "./components/whyus";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function Home() {
       <Partners />
       <Whyus />
       <Contact />
+      <Footer />
     </div>
   );
 }
